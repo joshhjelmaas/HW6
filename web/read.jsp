@@ -11,5 +11,7 @@
     <body>
         <h1>Imperial-Class Star Destroyers</h1>
         <%= table %>
+        <br><br>
+        <a href ="add">Add A Star Destroyer</a>
     </body>
 </html>
