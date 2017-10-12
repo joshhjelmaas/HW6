@@ -108,7 +108,11 @@ public class ReadQuery {
                     table += "<td>";
                         table += ship.getShipID();
                     table += "</td>";
-                
+                    
+                    table += "<td>";
+                    table += "<a href=delete?shipID=" + ship.getShipID() + "> Delete </a>";
+                    table += "</td>";
+                    
                 table += "</tr>";
                 
             }} catch (SQLException ex) {
