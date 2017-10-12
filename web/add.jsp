@@ -3,11 +3,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Add A Star Destroyer</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+        <title>Add a Star Destroyer</title>
     </head>
     <body>
-        <h1>Add A Star Destroyer</h1>
-        
+        <h1>Add a Star Destroyer</h1>
+        <div>
         <form name="addForm" action="addShip" method="get">
             
             <label>Destroyer Name:</label>
@@ -30,6 +31,6 @@
             <br>
             <input type="submit" name="submit" value="Submit" />        
         </form>
-        
+        </div>
     </body>
 </html>

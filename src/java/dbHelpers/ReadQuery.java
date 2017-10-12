@@ -66,7 +66,17 @@ public class ReadQuery {
    public String getHTMLtable() {
     
        String table = "";
-       table += "<table border=1>";
+       table += "<table>";
+       table += "<tr>";
+       table += "<th> Destroyer Name </th>";
+       table += "<th> Date Built </th>";
+       table += "<th> Fleet </th>";
+       table += "<th> Crew Size </th>";
+       table += "<th> Commander </th>";
+       table += "<th> Status </th>";
+       table += "<th> Ship ID </th>";
+       table += "<th></th>";
+       table += "</tr>";
        
         try {
             while(this.results.next()) {
