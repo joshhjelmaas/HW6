@@ -53,7 +53,7 @@ public class ReadQuery {
     public void doRead() {
         
         try {
-            String query = "Select * from stardestroyers";
+            String query = "Select * from stardestroyers order by shipID ASC";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();

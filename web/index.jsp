@@ -10,5 +10,7 @@
         <h1>Database of Imperial-Class Star Destroyers</h1>
         
         <a href="read">View All Star Destroyers</a> 
+        <br><br>
+        <a href="search.jsp">Search Star Destroyers</a>
     </body>
 </html>

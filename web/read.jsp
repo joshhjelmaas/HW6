@@ -14,5 +14,7 @@
         <%= table %>
         <br><br>
         <a href ="add">Add A Star Destroyer</a>
+        <br><br>
+        <a href="search.jsp">Search Star Destroyers</a>
     </body>
 </html>
