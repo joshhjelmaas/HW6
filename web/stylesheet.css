@@ -42,3 +42,7 @@ label {
   width: 140px;
   
 }​
+
+input[readonly] {
+  background-color: gray;
+}
