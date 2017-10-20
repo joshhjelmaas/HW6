@@ -7,6 +7,13 @@
         <title>Add a Star Destroyer</title>
     </head>
     <body>
+        <div class="wrap">
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+        
+        <div class="main">
         <h1>Add a Star Destroyer</h1>
         <div>
         <form name="addForm" action="addShip" method="get">
@@ -32,5 +39,10 @@
             <input type="submit" name="submit" value="Submit" />        
         </form>
         </div>
+        </div>
+            
+            <%@ include file="includes/footer.jsp" %>
+            
+        </div> 
     </body>
 </html>

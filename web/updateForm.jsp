@@ -9,6 +9,13 @@
         <title>Update a Star Destroyer</title>
     </head>
     <body>
+        <div class="wrap">
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+        
+        <div class="main">
         <h1>Update a Star Destroyer Record</h1>
         <div>
         <form name="updateForm" action="updateShip" method="get">
@@ -37,5 +44,10 @@
             <input type="submit" name="submit" value="Update" />        
         </form>
         </div>
+        </div>
+            
+            <%@ include file="includes/footer.jsp" %>
+            
+        </div> 
     </body>
 </html>

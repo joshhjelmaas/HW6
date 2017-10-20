@@ -7,10 +7,18 @@
         <title>Star Destroyers</title>
     </head>
     <body>
+        <div class="wrap">
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+        
+        <div class="main">
         <h1>Database of Imperial-Class Star Destroyers</h1>
         
-        <a href="read">View All Star Destroyers</a> 
-        <br><br>
-        <a href="search.jsp">Search Star Destroyers</a>
+            
+            <%@ include file="includes/footer.jsp" %>
+            
+        </div> 
     </body>
 </html>
